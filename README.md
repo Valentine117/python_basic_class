@@ -36,6 +36,21 @@ configuration 확인
     $ git add [파일이름]
     $ git add .  # 전체 파일 추적
 
+Delta 확인
+
+    $ git diff  # 현재 Unstaged 된 수정사항
+    $ git diff --staged  # 현재 staged 된 수정사항
+    $ git diff HEAD  # 현재 staged 된 것과 아닌 것 모두 확인
+    $ git diff HEAD HEAD^  # 마지막 커밋과 이전 커밋 비교
+
+    $ git diff <branch명> <다른 branch명>  # branch간 비교
+    $ git diff <branch명> origin/<branch명>  # 리모트 브랜치와 비교
+    $ git diff <commit hash> <commit hash>  # 커밋간 비교
+    
+    $ git diff <현재 브랜치> <checkout remote branch>  # 현재 브랜치와 pull request 비교
+    $ git diff <commit hash> <checkout remote branch>  # 커밋과 pull request 비교
+
+
 현재 상태 확인 (Untracked, Modified, Unmodified, Staged 조회)
 
     $ git status
