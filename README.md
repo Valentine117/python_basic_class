@@ -19,7 +19,7 @@ private full control 토큰 `regenerate` 하거나
 
 ### 맨날 까먹는 깃 명령어
 
-<div style="color:red">로컬 폴더에 반드시 .git 폴더가 있어야 함.</div>
+<span style="color:red">로컬 폴더에 반드시 .git 폴더가 있어야 함.</span>
 
 초기 설정  
 
