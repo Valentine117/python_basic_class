@@ -2,3 +2,5 @@
 .DS_Store
 .ipynb_checkpoints/
 solution2quiz.ipynb
+ignoreme/
+utils/
